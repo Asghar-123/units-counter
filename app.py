@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import os
-from fpdf import FPDF
+from fpdf2 import FPDF
 
 # Folder to store readings and summaries
 DATA_DIR = "readings"
